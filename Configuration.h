@@ -22,17 +22,17 @@
 #pragma once
 
 //#define X5S  //Endstop Hardware Switch not configured
-//#define X5SA
+#define X5SA
 //#define X5SA_Pro
 
 
 //#define Normal_Version //330x330x400
-//#define 400_Version
+#define 400_Version
 //#define 500_Version
 //#define 600_Version
 
 //Change Configuration_adv.h from the correct Folder if you use this
-//#define Dual_Z     
+#define Dual_Z     
 //#define Triple_Z
 
 //Not Sure if Dual_Z + 2_Extruder work on a Board with 6 Stepper Driver
@@ -40,12 +40,12 @@
 //E2 Slot = Dual Z
 
 //Multi Extruder (one Hotend)
-//#define 2_Extruder  
+#define 2_Extruder  
 //#define 3_Extruder
 
 
 //Auto-Level
-//#define Tronxy_ABL
+#define Tronxy_ABL
 //#define BL_Touch
 
 //SKR Boards
